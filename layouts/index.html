@@ -2,7 +2,7 @@
     <h2>Welcome to the AI Automation Hub</h2>
     <p>Automated updates on the best AI tools for business automation.</p>
     <hr>
-    {{ range .Pages }}
+    {{ range .Site.AllPages }}
         <div class="post-item">
             <a href="{{ .Permalink }}">{{ .Title }}</a><br>
             <span class="post-meta">{{ .Date.Format "January 2, 2006" }}</span>
