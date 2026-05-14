@@ -1,1 +1,1 @@
----\ntitle: "Verification Post - May 2026"\ndate: 2026-05-14T15:58:18Z\ndraft: false\n---\n\nThis is a test post to verify that the build pipeline is now working correctly after the framework and data cleanup.
+---\ntitle: "Verification Post - May 2026"\ndate: 2026-05-14T16:01:42Z\ndraft: false\n---\n\nThis is a test post to verify that the build pipeline is now working correctly.
