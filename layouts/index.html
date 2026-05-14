@@ -1,9 +1,11 @@
 {{ define "main" }}
-  <h2>Welcome to {{ .Site.Title }}</h2>
-  {{ .Content }}
-  <ul>
+    <h2>Welcome to the AI Automation Hub</h2>
+    <p>Automated updates on the best AI tools for business automation.</p>
+    <hr>
     {{ range .Site.RegularPages }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        <div class="post-item">
+            <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+            <span class="post-meta">{{ .Date.Format "January 2, 2006" }}</span>
+        </div>
     {{ end }}
-  </ul>
 {{ end }}
