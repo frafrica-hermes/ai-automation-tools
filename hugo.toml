@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ai-automation-tools-six.vercel.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'AI Automation Hub 2026'
+theme = 'PaperMod'
